@@ -15,7 +15,6 @@ require (
 	contrib.go.opencensus.io/exporter/prometheus v0.1.0
 	fbc/lib/go/http v0.0.0
 	fbc/lib/go/oc/helpers v0.0.0
-	github.com/gogo/protobuf v1.2.0 // indirect
 	github.com/jessevdk/go-flags v1.4.1-0.20181221193153-c0795c8afcf4
 	github.com/kelseyhightower/envconfig v1.3.0
 	github.com/pkg/errors v0.8.1
@@ -24,4 +23,6 @@ require (
 	github.com/stretchr/testify v1.3.0
 	go.opencensus.io v0.21.0
 	go.uber.org/zap v1.10.0
+	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
+	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9 // indirect
 )
