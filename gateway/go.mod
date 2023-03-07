@@ -22,7 +22,6 @@ require (
 	github.com/go-redis/redis v6.14.1+incompatible
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/protobuf v1.2.0
-	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/mux v1.6.2
 	github.com/ishidawataru/sctp v0.0.0-20180918013207-6e2cb1366111
 	github.com/prometheus/client_golang v0.9.2
@@ -30,13 +29,50 @@ require (
 	github.com/prometheus/common v0.2.0
 	github.com/shirou/gopsutil v2.18.10+incompatible
 	github.com/stretchr/testify v1.3.0
-	golang.org/x/net v0.0.0-20190110200230-915654e7eabc
+	golang.org/x/net v0.7.0
 	google.golang.org/grpc v1.17.0
-
 	magma/feg/cloud/go v0.0.0
 	magma/feg/cloud/go/protos v0.0.0
-
 	magma/lte/cloud/go v0.0.0
 	magma/orc8r/cloud/go v0.0.0
 	magma/orc8r/gateway v0.0.0
+)
+
+require (
+	cloud.google.com/go v0.26.0 // indirect
+	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
+	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
+	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
+	github.com/client9/misspell v0.3.4 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/go-kit/kit v0.8.0 // indirect
+	github.com/go-logfmt/logfmt v0.3.0 // indirect
+	github.com/go-stack/stack v1.8.0 // indirect
+	github.com/gogo/protobuf v1.1.1 // indirect
+	github.com/golang/mock v1.1.1 // indirect
+	github.com/gorilla/context v1.1.1 // indirect
+	github.com/julienschmidt/httprouter v1.2.0 // indirect
+	github.com/kisielk/gotool v1.0.0 // indirect
+	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
+	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
+	github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223 // indirect
+	github.com/pkg/errors v0.8.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/prometheus/procfs v0.0.0-20181204211112-1dc9a6cbc91a // indirect
+	github.com/sirupsen/logrus v1.2.0 // indirect
+	github.com/stretchr/objx v0.1.1 // indirect
+	golang.org/x/crypto v0.0.0-20180904163835-0709b304e793 // indirect
+	golang.org/x/lint v0.0.0-20181026193005-c67002cb31c3 // indirect
+	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be // indirect
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/tools v0.1.12 // indirect
+	google.golang.org/appengine v1.1.0 // indirect
+	google.golang.org/genproto v0.0.0-20180817151627-c66870c02cf8 // indirect
+	gopkg.in/alecthomas/kingpin.v2 v2.2.6 // indirect
+	gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
+	gopkg.in/yaml.v2 v2.2.1 // indirect
+	honnef.co/go/tools v0.0.0-20180728063816-88497007e858 // indirect
 )
